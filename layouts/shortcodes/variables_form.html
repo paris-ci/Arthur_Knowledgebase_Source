@@ -1,0 +1,88 @@
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+</script>
+
+<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="/css/variables.css">
+
+
+<script>
+    $( document ).ready(function() {
+
+        $(".variable_box").each(function() {
+            add_spans_in_variable_box($(this)[0]);
+        });
+
+        const inputs = $("#params input");
+
+        // Update immediately with current values
+        inputs.each(function() {
+            const value = $(this).val();
+            const name = $(this).attr("name");
+            update_variables(name, value)
+        });
+
+
+        // Hook for changes
+        inputs.keyup(function() {
+            const value = $(this).val();
+            const name = $(this).attr("name");
+            update_variables(name, value)
+        });
+
+    });
+
+    function update_variables(name, value) {
+        //console.log("Updating variables for " + name + " to " + value);
+        $('.variable').filter('[data-macro="' + name +'"]').each(
+            function( index ) {
+
+                if ($(this).hasClass("code")) {
+                    hljs.highlightBlock($(this));
+                }
+
+                //console.log( index + ": " + $( this ).text() );
+                $(this).text(value);
+
+
+            }
+        )
+    }
+
+    function add_spans_in_variable_box(box) {
+        const inputs = $("#params input");
+        //console.log(box);
+
+        inputs.each(function() {
+            const value = $(this).val();
+            const name = $(this).attr("name");
+
+            //console.log("Updating a variable box for " + name + " to " + value);
+
+            const by = '<span data-macro="' + name + '" class="variable">' + value + '</span>';
+            //console.log("§§" + name + "§§" + '->' + by);
+            const before = box.innerHTML;
+            const after = before.split("§§" + name + "§§").join(by);
+            //console.log(before + '->' + after);
+
+            box.innerHTML = after;
+        })
+    }
+
+
+
+
+</script>
+
+<h2>Personalisez l'article</h2>
+<form id="params" name="params" target="" method="GET">
+    {{ .Inner }}
+</form>
+<br>
