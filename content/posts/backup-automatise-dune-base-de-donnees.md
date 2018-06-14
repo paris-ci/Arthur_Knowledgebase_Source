@@ -1,5 +1,6 @@
 ---
 title: "Backup automatisé d’une base de données"
+tags: ["terminal", "mac os", "linux"]
 date: 2018-06-12T18:20:53+02:00
 draft: false
 ---

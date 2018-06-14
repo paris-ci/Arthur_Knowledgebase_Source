@@ -1,5 +1,6 @@
 ---
 title: "Installer Windows 10 Sur Un Disque Externe Depuis Un Mac"
+tags: ["windows", "mac os", "bootcamp"]
 date: 2018-06-13T00:16:18+02:00
 draft: false
 ---

@@ -5,7 +5,7 @@ languageCode = "fr"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
-disqusShortname = "ArthurCool"
+disqusShortname = "api-d"
 # googleAnalytics = "your-google-analytics-id"
 enableRobotsTXT = true
 
@@ -22,6 +22,8 @@ enableRobotsTXT = true
     # GraphCommentId = "your-graph-comment-id"
     # layoutReverse = true
     sidebarSticky = true
+    logo = "/img/profile.png"
+    favicon = "/img/favicon.ico"
 
 ## Social Accounts
 [params.social]
@@ -31,20 +33,25 @@ enableRobotsTXT = true
     #linkedin = "<username>"
     #twitter = "<username>"
     #facebook = "<username>"
-    #stackoverflow = "<username>"
+    stackoverflow = "3738545/waytodoor"
     #email = "your-email@example.com"
 
 ## Main Menu
 [[menu.main]]
     name = "Posts"
-    weight = 100
+    weight = 300
     identifier = "posts"
     url = "/posts/"
 [[menu.main]]
-    name = "About"
-    identifier = "about"
+    name = "Par tags"
+    identifier = "tags"
     weight = 200
-    url = "/about/"
+    url = "/tags/"
+[[menu.main]]
+    name = "A propos"
+    identifier = "about"
+    weight = 100
+    url = "/posts/pages/about/"
 
 [permalinks]
   post = "/:year/:month/:slug/"

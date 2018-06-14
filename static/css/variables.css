@@ -7,6 +7,11 @@
     background: #495C70;
     padding: 30px 30px 15px 30px;
     border: 5px solid #53687E;
+    color: #eeeeee;
+}
+
+#params strong{
+    color: #eedede;
 }
 
 #params input[type=submit],
