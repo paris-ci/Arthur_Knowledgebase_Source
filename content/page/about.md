@@ -10,4 +10,5 @@ Bonne visite!
 
 Ce site est généré par [Hugo](https://github.com/gohugoio), un générateur de site web open source.
 
+Le site lui-meme est open source : https://github.com/paris-ci/Arthur_Knowledgebase_Source
 :)

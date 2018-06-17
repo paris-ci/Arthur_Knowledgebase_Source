@@ -49,7 +49,7 @@ If you want to proceed with the bot installation, you'll need :
 
 {{<variables_add value="449652231227000000" name="bot_id" desc="Bot client ID">}}
 
-{{<variables_add vhttps://github.com/paris-ci/Arthur_Knowledgebase_Sourcealue="XXXXXXXXXXXXXXXX.XXXXXX.XXXXXXXXXXXXXXXX" name="bot_token" desc="Your bot token (not transmitted to any server, but don't take my word for it and check the webpage code by yourself if you are not sure)">}}
+{{<variables_add value="XXXXXXXXXXXXXXXX.XXXXXX.XXXXXXXXXXXXXXXX" name="bot_token" desc="Your bot token (not transmitted to any server, but don't take my word for it and check the webpage code by yourself if you are not sure)">}}
 
 {{<variables_add value="16" name="number_enigmas" desc="Total number of enigmas in the enigmas.json file">}}
 
