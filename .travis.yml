@@ -15,8 +15,9 @@ deploy:
   target_branch: master # GitHub pages branch to deploy to (in other cases it can be gh-pages)
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  email: jovart.arthur@gmail.com
-  name: "paris-ci (auto deploy)"
+  github_token: $GUTHUB_TOKEN # Yeah that was a fail on config but shrug, as long as it works
+  committer-from-gh: true
+  verbose: true
+  keep-history: true
   on:
     branch: master
