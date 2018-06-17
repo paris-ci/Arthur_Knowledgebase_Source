@@ -2,13 +2,13 @@
 The source code for the knowledge base available at 🇬🇧 https://kb.api-d.com/en  
 Le code source pour la knowledge base, diponible sur 🇫🇷 https://kb.api-d.com/fr
 
-🇬🇧 English verison in README.en.md 🇬🇧
+🇬🇧 English version in README.en.md 🇬🇧
 
 ## Comment contribuer
 
 Les articles sont disponibles suivant l'arboraissance Hugo normale, autrement dit, dans [`/content`](https://github.com/paris-ci/Arthur_Knowledgebase_Source/tree/master/content), puis classés par types.
 
-### Traduire un atricle
+### Traduire un article
 
 Pour traduire un article, copiez/collez la version de l'aricle existante (qui se finit en `[NOM].en.md`, avec indicatif de pays donc si vous partez de l'anglais, en `[NOM].md` si vous partez du français), ajoutez la langue a la fin (exemple, `[NOM].md` pour le fr, `[NOM].en.md` pour de l'anglais) et il ne vous restera plus qu'a traduire les phrases qui s'y trouvent. Pensez à garder intacts les noms de variables dans la définition du formulaire.
 
@@ -20,9 +20,9 @@ Allez simplement modifier le fichier de l'article (faites une recherche par nom)
 
 ### Ajouter un article
 
-Ouvrez une issue avant si vous n'etes pas sur, puis rédiger votre artcile en pensant à changer la date (exemples de template dans le dossier [`/archetypes`](https://github.com/paris-ci/Arthur_Knowledgebase_Source/tree/master/archetypes)), ou utilisez [hugo si vous l'avez installé](https://gohugo.io/getting-started/quick-start/#step-1-install-hugo) : `hugo new article/[NOM].md`)
+Ouvrez une issue avant si vous n'etes pas sur, puis rédiger votre article en pensant à changer la date (exemples de template dans le dossier [`/archetypes`](https://github.com/paris-ci/Arthur_Knowledgebase_Source/tree/master/archetypes)), ou utilisez [hugo si vous l'avez installé](https://gohugo.io/getting-started/quick-start/#step-1-install-hugo) : `hugo new article/[NOM].md`)
 
-N'hésitez pas à utiliser d'autres aticles pour des exemples, nottament pour le formulaire de personnalisation.
+N'hésitez pas à utiliser d'autres articles pour des exemples, nottament pour le formulaire de personnalisation.
 
 Merci beaucoup pour votre contribution!
 
