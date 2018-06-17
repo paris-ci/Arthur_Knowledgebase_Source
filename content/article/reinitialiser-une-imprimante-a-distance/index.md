@@ -1,6 +1,6 @@
 ---
 title: "Réinitialiser Une Imprimante À Distance"
-tags: ["terminal", "mac os", "linux"]
+categories: ["Terminal", "Mac os", "Linux"]
 
 date: 2018-06-13T00:19:17+02:00
 draft: false

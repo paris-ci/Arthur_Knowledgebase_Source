@@ -1,0 +1,4 @@
+- id: customize
+  translation: "Customize this post"
+- id: notSaved
+  translation: "The form values are not saved, refresh the page to reset them"

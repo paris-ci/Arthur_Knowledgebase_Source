@@ -1,0 +1,4 @@
+- id: customize
+  translation: "Personalisez l'article"
+- id: notSaved
+  translation: "Les valeurs ne sont pas sauvegardées, rafraichissez la page pour réinitialiser le formulaire"

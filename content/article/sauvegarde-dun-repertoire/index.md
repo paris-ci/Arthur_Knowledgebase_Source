@@ -1,6 +1,6 @@
 ---
 title: "Sauvegarde D'un Repertoire"
-tags: ["terminal", "mac os", "linux"]
+categories: ["Terminal", "Mac OS", "Linux"]
 date: 2018-06-13T00:08:33+02:00
 draft: false
 ---

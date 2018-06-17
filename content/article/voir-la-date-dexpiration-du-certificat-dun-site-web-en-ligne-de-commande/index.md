@@ -1,6 +1,6 @@
 ---
 title: "Voir la date d’expiration du certificat d’un site web en ligne de commande"
-tags: ["terminal", "mac os", "linux"]
+categories: ["Terminal", "Mac OS", "Linux"]
 
 date: 2018-06-13T00:19:17+02:00
 draft: false

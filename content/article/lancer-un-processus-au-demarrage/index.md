@@ -1,6 +1,6 @@
 ---
 title: "Lancer Un Processus Au Démarrage"
-tags: ["linux"]
+categories: ["Linux"]
 date: 2018-06-13T10:12:17+02:00
 draft: false
 ---

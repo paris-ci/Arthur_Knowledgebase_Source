@@ -1,0 +1,79 @@
+## Basic Configuration
+baseURL = "https://kb.api-d.com/"
+languageCode = "fr"
+
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+disqusShortname = "api-d"
+# googleAnalytics = "your-google-analytics-id"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Arthur"
+    title = "Arthur Knowledge Base"
+    description = "Memory, Tutorials, Useful snippets and more"
+    authorimage = "/img/profile.png"
+    dateformat = "2 Jan 2006"
+    highlightjs = true
+    highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id"
+    # layoutReverse = true
+    sidebarSticky = true
+    logo = "/img/profile.png"
+    favicon = "/img/favion.ico"
+
+## Social Accounts
+[params.social]
+    github = "paris-ci"
+    #instagram = "<username>"
+    #xing = "<username>"
+    #linkedin = "<username>"
+    #twitter = "<username>"
+    #facebook = "<username>"
+    stackoverflow = "3738545/waytodoor"
+    #email = "your-email@example.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 300
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Par tags"
+    identifier = "tags"
+    weight = 200
+    url = "/tags/"
+[[menu.main]]
+    name = "A propos"
+    identifier = "about"
+    weight = 100
+    url = "/posts/pages/about/"
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

@@ -1,79 +1,99 @@
-## Basic Configuration
-baseURL = "https://kb.api-d.com/"
-languageCode = "fr"
+title = "Arthur Knowledge Base"
+baseURL = "https://kb.api-d.com"
+theme = "bilberry-hugo-theme"
 
-theme = "hyde-hyde"
-
-## Hugo Built-in Features
-disqusShortname = "api-d"
-# googleAnalytics = "your-google-analytics-id"
 enableRobotsTXT = true
 
-## Site Settings
-[params]
-    author = "Arthur"
+defaultContentLanguageInSubdir = true
+
+# Change to your content language. Supported values: en, de, es, fr, ru
+DefaultContentLanguage = "fr"
+
+[languages]
+  [languages.fr]
     title = "Arthur Knowledge Base"
-    description = "Memory, Tutorials, Useful snippets and more"
-    authorimage = "/img/profile.png"
-    dateformat = "2 Jan 2006"
-    highlightjs = true
-    highlightjsstyle = "github"
-    # please choose either GraphComment or Disqus
-    # GraphCommentId = "your-graph-comment-id"
-    # layoutReverse = true
-    sidebarSticky = true
-    logo = "/img/profile.png"
-    favicon = "/img/favicon.ico"
+    weight = 1
+  [languages.en]
+    title = "Arthur Knowledge Base"
+    weight = 2
+    [languages.en.params]
+      subtitle = "Memory, Tutorials, Useful snippets and more"
 
-## Social Accounts
-[params.social]
-    github = "paris-ci"
-    #instagram = "<username>"
-    #xing = "<username>"
-    #linkedin = "<username>"
-    #twitter = "<username>"
-    #facebook = "<username>"
-    stackoverflow = "3738545/waytodoor"
-    #email = "your-email@example.com"
+# Enable / Disable Google Analytics statistics for your site
+googleAnalytics = "UA-120923988-1"
 
-## Main Menu
-[[menu.main]]
-    name = "Posts"
-    weight = 300
-    identifier = "posts"
-    url = "/posts/"
-[[menu.main]]
-    name = "Par tags"
-    identifier = "tags"
-    weight = 200
-    url = "/tags/"
-[[menu.main]]
-    name = "A propos"
-    identifier = "about"
-    weight = 100
-    url = "/posts/pages/about/"
+# Enable / Disable comments on the articles via Disqus.
+disqusShortname = "api-d"
 
-[permalinks]
-  post = "/:year/:month/:slug/"
+[params]
+  # Favicon for the browser's favorites and tabs
+  favicon = "/img/favion-1024.png" # set a favicon icon
 
-[privacy]
-  [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = false
-  [privacy.instagram]
-    disable = false
-    simple = false
-  [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = false
-  [privacy.vimeo]
-    disable = false
-    simple = false
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = true
+  # Custom CSS / JS modules that will be imported by the template.
+  # Files are relative to the static/ directory or a URL.
+  # Files are imported in the order they appear here, after
+  # theme.css and theme.js, respectively.
+  css_modules = ["css/variables.css"]
+  js_modules = []
+
+  # Description and meta data for the search engines
+  author = "Arthur"
+  description = "Arthur Knowledge Base"
+  #keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  keywords = "personal, knowledge base, dynamic, responsive, code, tech"
+
+  # How many articles should be displayed at once?
+  paginate = 6
+
+  # Enable / Disable MathJax
+  enable_mathjax    = true
+
+  # Enable / Disable algolia search
+  algolia_search    = false
+  algolia_appId     = "Y2C4RWMPXW"
+  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  algolia_indexName = "default-content"
+
+  # Header configuration
+  # your subtitle if you want to use any
+  subtitle = "Mémoire, Tutorials, Bouts de code et bien plus"
+
+  # if you want to use gravatar for the header image
+  gravatarEMail = ""
+
+  # set an path to the image file you want to use | overwrites gravatar
+  customImage = "/img/profile.png"
+
+  # always display the top navigation (with pages and search) on non-mobile screens
+  permanentTopNav = false
+
+  # credits line configuration
+  copyrightBy = "by Arthur"
+  copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+  copyrightYearOverride = "2018"
+  copyrightUrl = "https://github.com/paris-ci"
+  creditsText = "Arthur KB"
+  creditsUrl = "https://github.com/paris-ci/knowledge"
+
+  # social media profile urls for the footer links
+  facebook   = ""
+  twitter    = ""
+  googleplus = ""
+  pinterest  = ""
+  instagram  = ""
+  tumblr     = ""
+  youtube    = ""
+  vimeo      = ""
+  github     = "https://github.com/paris-ci"
+  xing       = ""
+  linkedin   = ""
+
+# don't change anything here
+[taxonomies]
+  author   = "author"
+  tag      = "tags"
+  category = "categories"
+
+[outputs]
+  home = [ "HTML", "JSON" ]
+  page = [ "HTML" ]

@@ -1,6 +1,6 @@
 ---
 title: "Afficher Un Traceroute Sur Une Carte"
-tags: ["terminal", "commandes", "linux", "mac os"]
+categories: ["Terminal", "Linux", "Mac OS"]
 date: 2018-06-13T00:12:17+02:00
 draft: false
 ---
