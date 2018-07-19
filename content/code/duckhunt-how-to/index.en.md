@@ -271,7 +271,7 @@ In this file, add the following :
 
 #### Auto-restart
 
-You'll probably want the bot to restart every time it fails, or when you use the `dhexit` command. Feel free to use [this tutorial]({{< relref "article/lancer-un-processus-au-demarrage/index.md" >}}) for this.
+You'll probably want the bot to restart every time it fails, or when you use the `dhexit` command. Feel free to use [this tutorial]({{< relref "/article/lancer-un-processus-au-demarrage/index.md" >}}) for this.
 
 #### Backup Script
 

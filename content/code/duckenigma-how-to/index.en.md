@@ -251,5 +251,5 @@ and see if the commands works. If yes, give yourself and your mods the moderator
 
 ### Auto-restart
 
-You'll probably want the bot to restart every time it fails, or when you use the `-exit` command. Feel free to use [this tutorial]({{< relref "article/lancer-un-processus-au-demarrage/index.md" >}}) for this.
+You'll probably want the bot to restart every time it fails, or when you use the `-exit` command. Feel free to use [this tutorial]({{< relref "/article/lancer-un-processus-au-demarrage/index.md" >}}) for this.
 
