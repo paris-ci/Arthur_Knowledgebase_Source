@@ -1,6 +1,6 @@
 ---
-title: "Comment installer et creer des énigmes pour un fork de DuckEnigma"
-date: 2018-06-14T22:26:13+02:00
+title: "Comment installer DuckHunt et DuckHunt Community sur votre propre serveur"
+date: 2018-07-16T12:26:13+02:00
 draft: false
 
 categories: ['Linux', 'Tutoriels']
