@@ -15,6 +15,7 @@ install:
 
 script:
   - hugo # This commands builds your website on travis
+  - echo 'kb.api-d.com' > public/CNAME
 
 deploy:
   local_dir: public # Default static site output dir for Hugo
