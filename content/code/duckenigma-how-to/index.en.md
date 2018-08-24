@@ -222,7 +222,7 @@ Don't forget to change the number in the form if you don't have {{< variables_sh
 
 Create a log channel that will be used by the bot. The bost must be able to send messages there, but not users.
 
-Now, this is the boring part. Someone could probably do a script/cog to automate this part. Anyway, you'll have to create a rank for each enigma: 01, 02, ... {{< variables_show "number_enigmas" >}}. The last one, {{< variables_show "number_enigmas" >}}, should probably be colored or something, 'cause they are the winners.
+Now, this is the boring part. Someone could probably do a script/cog to automate this part, and I'll gladly accept any PR for this. Anyway, you'll have to create a rank for each enigma: 01, 02, ... {{< variables_show "number_enigmas" >}}. The last one, {{< variables_show "number_enigmas" >}}, should probably be colored or something, 'cause they are the winners.
 
 You'll also want to create two other roles, spectator and moderator, that will not be playing.
 
