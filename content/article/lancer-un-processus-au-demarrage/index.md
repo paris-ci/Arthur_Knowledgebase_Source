@@ -94,9 +94,12 @@ Description=Lancement au démarrage de §§name§§
 [Service]
 
 # Un service simple
+# Forking si la commande/le script invoque un screen, par exemple
 Type=simple
 
 # Commande de démarrage
+# Doit etre un PATH absolu vers un script.
+# Peut commencer par /bin/bash
 ExecStart=§§cmd§§
 
 # Commande d'arret, si nécéssaire
@@ -110,7 +113,8 @@ User=§§user§§
 Group=§§user§§
 
 # Redémarrage en cas de plantage
-Restart=on-failure # ou always, on-abort, etc
+# ou always, on-abort, etc
+Restart=on-failure 
 
 # Temps avant lequel le service sera tué lors d'une commande stop si celle-ci ne réponds pas
 TimeoutStopSec=300
