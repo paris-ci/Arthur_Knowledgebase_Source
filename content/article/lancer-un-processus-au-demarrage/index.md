@@ -134,7 +134,6 @@ chmod 744 /etc/systemd/system/§§name§§.service
 Enfin, préparez et lancez votre service:
 
 {{< variables_box_highlight language="bash" >}}
-chmod 664 /etc/systemd/system/§§name§§.service
 systemctl daemon-reload
 systemctl enable §§name§§.service
 
