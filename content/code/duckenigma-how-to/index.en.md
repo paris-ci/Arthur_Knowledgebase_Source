@@ -220,7 +220,7 @@ is the message that will be displayed if a correct answer is given.
 
 Don't forget to change the number in the form if you don't have {{< variables_show "number_enigmas" >}} enigmas in your enigmas.json file.
 
-Create a log channel that will be used by the bot. The bost must be able to send messages there, but not users.
+Create a log channel that will be used by the bot. The bot must be able to send messages there, but not users.
 
 Now, this is the boring part. Someone could probably do a script/cog to automate this part, and I'll gladly accept any PR for this. Anyway, you'll have to create a rank for each enigma: 01, 02, ... {{< variables_show "number_enigmas" >}}. The last one, {{< variables_show "number_enigmas" >}}, should probably be colored or something, 'cause they are the winners.
 

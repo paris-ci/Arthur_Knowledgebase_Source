@@ -127,7 +127,7 @@ N'oubliez pas de rendre votre script exécutable:
 
 {{< variables_box_highlight language="bash" >}}
 
-chmod 744 §§cmd§§
+chmod 744 /etc/systemd/system/§§name§§.service
 
 {{< /variables_box_highlight >}}
 
