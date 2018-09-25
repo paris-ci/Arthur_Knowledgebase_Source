@@ -94,7 +94,7 @@ Then, type, as requested,
 {{< variables_box_highlight language="none" >}}./tf2server install{{< /variables_box_highlight >}}
 
 
-Press enter when asked for the server directory (it should already be {{< variables_box_highlight_inline language="none" >}}/home/{{user}}{{< /variables_box_highlight_inline >}})
+Press enter when asked for the server directory (it should already be {{< variables_box_highlight_inline language="none" >}}/home/§§user§§{{< /variables_box_highlight_inline >}})
 
 The install should proceed, press enter when asked if it completed successfully.
 
