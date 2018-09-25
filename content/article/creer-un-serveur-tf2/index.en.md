@@ -27,7 +27,7 @@ If you want to proceed with the server installation, you'll need :
 
 * A VPS or a linux (ubuntu) box to run the bot. You can get them for cheap at ScaleWay (a START1-M or L will do just fine, depending on the guild count) or DigitalOcean, but you **can't get them for free**
 
-I used a VPS - GAME1 from [HostMyServers](https://www.hostmyservers.fr), since they make affordable 5gHz VPSand are located in France (closer to me in the network point of view)
+I used a VPS - GAME1 from [HostMyServers](https://www.hostmyservers.fr), since they make affordable 5GHz VPS and are located in France (closer to me in the network point of view)
 
 * An internet connection
 * A basic understanding of terminal and SQL
@@ -60,7 +60,7 @@ Prepare the server by installing LGSM prerequisites :
 
 {{< variables_box_highlight language="bash" >}}dpkg --add-architecture i386; apt update; apt install -y mailutils postfix curl wget file bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux lib32gcc1 libstdc++6 libstdc++6:i386 libcurl4-gnutls-dev:i386 libtcmalloc-minimal4:i386{{< /variables_box_highlight >}}
 
-When prompted, you want a local site with a FQDN of {{< variables_box_highlight_inline language="none" >}}{{< /variables_box_highlight_inline >}}
+When prompted, you want a local site with a FQDN of {{< variables_box_highlight_inline language="none" >}}§§dns§§{{< /variables_box_highlight_inline >}}
 
 
 Install some more TF2 server prerequisites:
@@ -179,3 +179,7 @@ Type {{< variables_box_highlight_inline language="bash" >}}crontab -e{{< /variab
 30 0 * * * /home/§§user§§/tf2server update-lgsm > /dev/null 2>&1 && /home/§§user§§/tf2server force-update > /dev/null 2>&1
 {{< /variables_box_highlight >}}
 
+## How to install a plugin
+
+This a a kinda optional part, but I bet everyone will want to follow it, so here we go
+We'll take [this plugin](https://forums.alliedmods.net/showthread.php?t=278579) as the one we would like to install, please adapt the instructions with your own plugins. 
