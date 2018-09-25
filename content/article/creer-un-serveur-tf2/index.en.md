@@ -26,7 +26,7 @@ As usual, fill the variable box down here to personalize the tutorial for you. T
 If you want to proceed with the server installation, you'll need :
 
 * A VPS or a linux (ubuntu) box to run the bot. You can get them for cheap at ScaleWay (a START1-M or L will do just fine, depending on the guild count) or DigitalOcean, but you **can't get them for free**
-I used a `VPS - GAME1` from [HostMyServers](https://www.hostmyservers.fr), since they make affordable 5gHz VPSand are located in France (closer to me in the network point of view)
+I used a VPS - GAME1 from [HostMyServers](https://www.hostmyservers.fr), since they make affordable 5gHz VPSand are located in France (closer to me in the network point of view)
 
 * An internet connection
 * A basic understanding of terminal and SQL
@@ -172,11 +172,8 @@ And then, type {{< variables_box_highlight_inline language="bash" >}}a2ensite §
 Type {{< variables_box_highlight_inline language="bash" >}}crontab -e{{< /variables_box_highlight_inline >}} and add in the file the following line
 
 {{< variables_box_highlight language="crontab" >}}
-
 @reboot /home/§§user§§/tf2server monitor > /dev/null 2>&1
 */5 * * * *  /home/§§user§§/tf2server monitor > /dev/null 2>&1
 @hourly /home/§§user§§/tf2server update > /dev/null 2>&1
 30 0 * * * /home/§§user§§/tf2server update-lgsm > /dev/null 2>&1 && /home/§§user§§/tf2server force-update > /dev/null 2>&1
-
-
 {{< /variables_box_highlight >}}
