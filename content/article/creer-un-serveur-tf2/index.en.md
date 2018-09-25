@@ -17,7 +17,7 @@ As usual, fill the variable box down here to personalize the tutorial for you. T
 {{< variables_form >}}
 
 {{<variables_add value="tf.api-d.com" name="dns" desc="Your TF2 server domain name">}}
-{{<variables_add value="user" name="tf2server" desc="User that will be created and will own the tf2 server files">}}
+{{<variables_add value="tf2server" name="user" desc="User that will be created and will own the tf2 server files">}}
 
 {{< /variables_form >}}
 
@@ -39,7 +39,7 @@ That's alright ? Let's get started!
 ## Server setup 
 
 Login to your server using SSH
-{{< variables_box_highlight language="bash" >}}ssh 'root@$$dns$$"'{{< /variables_box_highlight >}}
+{{< variables_box_highlight language="bash" >}}ssh 'root@§§dns§§"'{{< /variables_box_highlight >}}
 
 Update everything on the server to start cleanly.
 
