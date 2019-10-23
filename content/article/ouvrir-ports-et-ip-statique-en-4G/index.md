@@ -28,8 +28,8 @@ Il vous faudra aussi disposer de
 
 {{< variables_form >}}
 
-{{<variables_add value="1.1.1.1" name="vps_ip" desc=IP de votre VPS">}}
-{{<variables_add value="192.168.1.1" name="box_ip" desc=IP de votre BOX">}}
+{{<variables_add value="1.1.1.1" name="vps_ip" desc="IP de votre VPS">}}
+{{<variables_add value="192.168.1.1" name="box_ip" desc="IP de votre BOX">}}
 
 {{< /variables_form >}}
 
