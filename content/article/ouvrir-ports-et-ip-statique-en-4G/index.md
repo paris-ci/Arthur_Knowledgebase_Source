@@ -1,8 +1,11 @@
 ---
 title: "Ouvrir ports et obtenir une IP statique en 4G"
 categories: ["Routeur 4G", "Réseau", "Linux"]
-date: 2019-10-23T12:00:00+02:00
+
+date: 2019-10-23T00:00:00+02:00
 draft: false
+
+slug: "ouvrir-ports-et-ip-statique-en-4G"
 ---
 
 Ce tutoriel devrait vous permettre soit
