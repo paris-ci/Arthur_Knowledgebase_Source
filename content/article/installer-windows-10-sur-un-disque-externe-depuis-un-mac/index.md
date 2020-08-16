@@ -34,7 +34,7 @@ Commencez par télécharger les outils nécessaires.
 
 Installez Windows 10 dans une nouvelle VM.
 
-Dans la VM, téléchargez [GetWaikTools](http://www.rmprepusb.com/tutorials/getwaiktools/GetWaikTools.zip?attredirects=0&amp;d=1), et ouvrez le programme
+Dans la VM, téléchargez [GetWaikTools](https://www.rmprepusb.com/tutorials/getwaiktools) (En bas de la page), et ouvrez le programme
 
 A l'aide de GetWaikTools, récupérez les **ADK Tools for Win 10**.
 
