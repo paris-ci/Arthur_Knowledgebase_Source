@@ -36,6 +36,8 @@ Installez Windows 10 dans une nouvelle VM.
 
 Dans la VM, téléchargez [GetWaikTools](https://www.rmprepusb.com/tutorials/getwaiktools) (En bas de la page), et ouvrez le programme
 
+Mirroir : https://github.com/paris-ci/Arthur_Knowledgebase_Source/raw/master/static/GetWaikTools.zip (Mot de passe : `api-d.com` - Ce n'est pas un virus, bien que Google Drive en soit convaincu.)
+
 A l'aide de GetWaikTools, récupérez les **ADK Tools for Win 10**.
 
 ## Preparation de install.wim et imagex.exe
